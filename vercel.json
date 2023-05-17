@@ -1,3 +1,6 @@
 {
-  "redirects": [{ "source": "/:path", "destination": "/api/:path" }]
+  "redirects": [
+    { "source": "/", "destination": "/api" },
+    { "source": "/:path", "destination": "/api/:path" }
+  ]
 }
